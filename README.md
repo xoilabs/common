@@ -1,1 +1,1 @@
-# structs
+# Common for all golang modules
