@@ -8,12 +8,12 @@ import (
 )
 
 type Swap struct {
+	Index       uint16
 	TxHash      common.Hash
 	Pair        common.Address
-	TxFrom      common.Address
-	TxTo        common.Address
+	TxSender    common.Address
+	TxRecipient common.Address
 	Amount0     big.Int
 	Amount1     big.Int
 	BlockTime   time.Time
-	BlockNumber int64
 }

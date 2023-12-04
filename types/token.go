@@ -10,7 +10,7 @@ type Token struct {
 	Address     common.Address
 	Name        string
 	Symbol      string
-	Decimal     common.Decimal
+	Decimal     int8
 	Creator     common.Address
 	TxHash      common.Hash
 	BlockTime   time.Time
