@@ -11,7 +11,5 @@ type Pair struct {
 	Token0      common.Address
 	Token1      common.Address
 	Creator     common.Address
-	TxHash      common.Hash
-	BlockTime   time.Time
-	BlockNumber int64
+	Tx
 }

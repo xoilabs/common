@@ -9,11 +9,10 @@ import (
 
 type Swap struct {
 	Index       uint16
-	TxHash      common.Hash
 	Pair        common.Address
-	TxSender    common.Address
-	TxRecipient common.Address
+	Sender    common.Address
+	Recipient common.Address
 	Amount0     big.Int
 	Amount1     big.Int
-	BlockTime   time.Time
+	Tx
 }

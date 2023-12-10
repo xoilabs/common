@@ -2,6 +2,7 @@ package types
 
 import (
 	"math/big"
+	"time"
 
 	"github.com/ethereum/go-ethereum/common"
 )
@@ -12,4 +13,5 @@ type Transfer struct {
 	From   common.Address
 	To     common.Address
 	Amount *big.Int
+	Tx
 }

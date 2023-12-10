@@ -12,7 +12,5 @@ type Token struct {
 	Symbol      string
 	Decimal     int8
 	Creator     common.Address
-	TxHash      common.Hash
-	BlockTime   time.Time
-	BlockNumber int64
+	Tx
 }
